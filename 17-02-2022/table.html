@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="icon" href="./WhatsApp Image 2021-10-09 at 4.06.59 PM.jpeg">
+</head>
+<body>
+    <!-- 
+        table tag ---- creating table
+        tr-- table row
+        th-- table head
+        td-- table data
+        the boxes of table is called table self
+     -->
+     <font color = "red" size = "6px" >Atul Kumar Pandey</font>
+     
+     <table border="3">
+         <tr bgcolor="red">
+            <th>S.no</th>
+            <th>Name </th>
+            <th>Course</th>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>Atul</td>
+            <td>B.tech</td>
+         </tr>
+         <tr>
+             <td>2</td>
+             <td>Rahul</td>
+             <td>b.tech</td>   
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>Ramesh</td>
+            <td>B.Sc</td>
+         </tr>
+         <tr>
+             <td>4</td>
+             <td><img src="./WhatsApp Image 2021-10-09 at 4.06.59 PM.jpeg" width="30"   height="30"></td>
+             <td>Image</td>
+         </tr>
+     </table><br>
+     <table border="3" width = "300px" height = "300px" cellpadding = "30">
+         <tr bgcolor="red">
+            <th>S.no</th>
+            <th>Name </th>
+            <th>Course</th>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>Atul</td>
+            <td>B.tech</td>
+         </tr>
+         <tr>
+             <td>2</td>
+             <td>Rahul</td>
+             <td>b.tech</td>   
+         </tr>
+         <tr>
+            <td colspan="2">Arun</td>
+            <!-- <td>Ramesh</td> -->
+            <td>B.Sc</td>
+         </tr>
+         <tr>
+             <td>4</td>
+             <td colspan="2">
+                 <img src="./WhatsApp Image 2021-10-09 at 4.06.59 PM.jpeg" width="30"   height="30"></td>
+             
+         </tr>
+     </table> <br>
+
+     <!-- Row spanning -->
+     <table border="3">
+        <tr bgcolor="red">
+           <th>S.no</th>
+           <th>Name </th>
+           <th>Course</th>
+        </tr>
+        <tr>
+           <td>1</td>
+           <td rowspan="2">Atul</td>
+           <td>B.tech</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <!-- <td rowspan="2">Rahul</td> -->
+            <td>b.tech</td>   
+        </tr>
+        <tr>
+           <td>3</td>
+           <td>Ramesh</td>
+           <td>B.Sc</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td rowspan=""><img src="./WhatsApp Image 2021-10-09 at 4.06.59 PM.jpeg" width="30"   height="30"></td>
+            <td>Image</td>
+        </tr>
+    </table><br>
+    <font>Rowspan and colomn span at same time</font>
+    <table border="3" width= "300" height = "300" cellpadding="30">
+        <tr bgcolor="red">
+           <th>S.no</th>
+           <th>Name </th>
+           <th>Course</th>
+        </tr>
+        <tr>
+           <td>1</td>
+           <td rowspan="2" colspan="2">Atul</td>
+           <!-- <td>B.tech</td> -->
+        </tr>
+        <tr>
+            <td>2</td>
+            <!-- <td>Rahul</td> -->
+            <!-- <td>b.tech</td>    -->
+        </tr>
+        <tr>
+           <td>3</td>
+           <td>Ramesh</td>
+           <td>B.Sc</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img src="./WhatsApp Image 2021-10-09 at 4.06.59 PM.jpeg" width="30"   height="30"></td>
+            <td>Image</td>
+        </tr>
+    </table><br>
+</body>
+</html>
